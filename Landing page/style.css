@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+body {
+    background-image: url();
+}
+
+.header {
+    color: #220505;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-image: url('https://img.pikbest.com/png-images/qianku/sea-wave-sea-water-cartoon-liquid_2214738.png!bw700');
+    background-size: cover;
+    background-position: 0%;
+}
+
+.navlist {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1vw;
+    margin: 0;
+    font-size: large;
+}
+
+.navlist li:hover {
+    border-bottom: 2px solid black;
+}
+
+.navlist li {
+    padding: 1vh;
+}
+
+.heading {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 1.6rem;
+}
+
+.maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mainimg {
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {
+    padding: 5vw;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.infocards {
+    border: 5px solid rgb(33, 214, 238);
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-start;
+    width: 60vw;
+    padding: 10px 10vw; 
+    margin: 23px ;
+}
+
+
+.fontsmall {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.content-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    padding: 23px
+}
+
+@media only screen and (min-width: 700px) {
+
+    .header {
+        margin: 0 13vw;
+        flex-direction: row;
+        width: 75%;
+    }
+    
+    .navbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .navlist {
+        display: flex;
+        flex-direction: row;
+    }
+     
+    .heading {
+        margin-left: 5px;
+    }
+
+    .main {
+        margin: 0 12%;
+    }
+
+    .content {
+        margin: 3% 5%;
+        padding: 0;
+        font-size: 27px;
+    }
+
+    .info {
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+
+    .infocards {
+        padding: 0;
+    }
+
+} 
